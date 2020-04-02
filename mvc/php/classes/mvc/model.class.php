@@ -1,8 +1,6 @@
 <?php
-namespace mvc;
+  namespace mvc;
 
-abstract class Model implements \mvc\interfaces\Model {
-}
-
-
+  abstract class Model implements \mvc\interfaces\Model {
+  }
  ?>

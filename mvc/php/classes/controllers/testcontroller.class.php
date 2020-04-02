@@ -1,8 +1,7 @@
 <?php
-namespace controllers;
+  namespace controllers;
 
-class TestController extends \mvc\Controller {
+  class TestController extends \mvc\Controller {
 
-}
-
+  }
  ?>
