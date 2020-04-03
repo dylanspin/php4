@@ -1,4 +1,5 @@
 <?php
+
   namespace mvc;
 
   abstract class View implements \mvc\interfaces\View {
@@ -10,5 +11,7 @@
       $this->controller = $controller;
       $this->model = $model;
     }
+
   }
- ?>
+
+?>

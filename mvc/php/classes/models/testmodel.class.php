@@ -1,7 +1,7 @@
 <?php
-  namespace models;
+namespace models;
 
-  class TestModel extends \mvc\Model {
+class TestModel extends \mvc\Model {
 
-  }
+}
  ?>

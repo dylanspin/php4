@@ -1,8 +1,7 @@
 <?php
-namespace mvc\interfaces;
+  namespace mvc\interfaces;
 
-interface View {
-  public function getHTML();
-}
-
- ?>
+  interface View {
+    public function getHTML();
+  }
+?>

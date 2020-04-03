@@ -1,4 +1,8 @@
 body{
-/*  background: url('<?= WEB_ROOT . "/assests/images/redCloud.png" ?>')*/
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
   background: url('../assests/images/mvc.png') 0px 0px / 250px 250px repeat;
+}
+a{
+  color: #171717;
 }

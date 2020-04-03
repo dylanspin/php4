@@ -1,8 +1,8 @@
 <?php
-namespace mvc;
+  namespace mvc;
 
-class App {
-
+  class App {
+    
     private $router;
 
     public function __construct() {
@@ -16,5 +16,6 @@ class App {
         return $e.getMessage;
       }
     }
-}
+
+  }
 ?>
