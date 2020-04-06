@@ -3,7 +3,7 @@
  <html lang="en" dir="ltr">
    <head>
      <meta charset="utf-8">
-     <title>MVC structuur</title>
+     <title>MVC</title>
      <link rel="stylesheet" href="css/master.css">
      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
    </head>

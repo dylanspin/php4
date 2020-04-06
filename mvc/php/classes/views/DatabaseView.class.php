@@ -6,12 +6,13 @@
 
     public function getHTML() {
 
-      // $data = $this->model->getDataUsers();
-      $output = "<table class='table table-dark'>";
+      $data = $this->model->DataUsers();
+      $output = "<table class='table'>";
       $output .= "<th>ID</th><th>Username</th><th>Email</th><th>TelNmr</th><th>Voornaam</th><th>Achternaam</th>";
+
       foreach ($data as $row) {
         $output .= "<tr>";
-        $output .= "<td>" . $row['ID'] . "</td>";
+        $output .= "<td>" . $row['Id'] . "</td>";
         $output .= "<td>" . $row['Username'] . "</td>";
         $output .= "<td>" . $row['Email'] . "</td>";
         $output .= "<td>" . $row['TelNmr'] . "</td>";

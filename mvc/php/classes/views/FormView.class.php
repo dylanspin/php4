@@ -3,6 +3,7 @@
   namespace views;
 
   class FormView extends \mvc\View {
+
     public function getHTML(){
 
       $output = "<h1>Form</h1><br>";
@@ -29,5 +30,6 @@
 
       return $output;
     }
+    
   }
  ?>
